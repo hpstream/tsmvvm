@@ -1,18 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
+import "./typescript";
+
 
 Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
 }).$mount('#app')
-
-// interface MVVM {};
-
-
-// function MVVM(){
-
-// }
-
-// new MVVM();
 
